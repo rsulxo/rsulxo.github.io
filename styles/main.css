@@ -15,7 +15,7 @@ nav {
     position: fixed;
     top: 0;
     width: 100%;
-    background: rgba(120, 96, 144, 0.95);
+    background: #dfe2fe;
     padding: 1rem;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
@@ -28,7 +28,7 @@ nav ul {
 }
 
 nav a {
-    color: #f9f9f9;
+    color: #0000;
     text-decoration: none;
     font-size: 1.1rem;
     transition: opacity 0.3s;
