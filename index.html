@@ -1,7 +1,72 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Maitree:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/main.js"></script>
+
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    <nav>
+        <ul>
+            <li><a href="#home" class="nav-link">Home</a></li>
+            <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+            <li><a href="#library" class="nav-link">Library</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Page -->
+    <div id="home" class="page active">
+        <div class="home-content">
+            <h1>Welcome</h1>
+            <img src="/api/placeholder/200/200" alt="Profile Image" class="profile-img">
+            <p>Hello! I'm [Your Name]. I'm passionate about [your interests/profession] and love to [what you do].</p>
+            <a href="#portfolio" class="cta-button">View My Work</a>
+        </div>
+    </div>
+
+    <!-- Portfolio Page -->
+    <div id="portfolio" class="page">
+        <h2>My Portfolio</h2>
+        <div class="portfolio-grid">
+            <div class="portfolio-item">
+                <h3>Project 1</h3>
+                <p>Description of your first project goes here.</p>
+            </div>
+            <div class="portfolio-item">
+                <h3>Project 2</h3>
+                <p>Description of your second project goes here.</p>
+            </div>
+            <div class="portfolio-item">
+                <h3>Project 3</h3>
+                <p>Description of your third project goes here.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Library Page -->
+    <div id="library" class="page">
+        <h2>Digital Library</h2>
+        <div class="library-grid">
+            <div class="book-item">
+                <h3>Book Title 1</h3>
+                <p>Author Name</p>
+                <a href="#" class="cta-button">Read More</a>
+            </div>
+            <div class="book-item">
+                <h3>Book Title 2</h3>
+                <p>Author Name</p>
+                <a href="#" class="cta-button">Read More</a>
+            </div>
+            <div class="book-item">
+                <h3>Book Title 3</h3>
+                <p>Author Name</p>
+                <a href="#" class="cta-button">Read More</a>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
